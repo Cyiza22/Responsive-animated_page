@@ -27,4 +27,46 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition:all .50s ease
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    display: inline-block;
+    margin: 0 35px;
+    color: var(--text-color);
+    font-size: var(--p-font);
+    transition: all .6s ease;
+
+}
+.navlist a:hover{
+    color: var(--main-color);
+}
+.right-content{
+    display: flex;
+    align-items: center;
+}
+.nav-btn{
+    display: flex;
+    padding: 9px 24px;
+    background: transparent;
+    border: 2px solid var(--text-color);
+    border-radius: 7px;
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .6s ease;
+}
+.nav-btn:hover{
+    transform: translate(-5px);
+    border: 2px solid var(--main-color);
+    color:var(--main-color)
+}
+#menu-icon{
+    font-size: 42px;
 }
