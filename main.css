@@ -83,4 +83,8 @@ section{
     background: url(img/bg.png);
     background-size: cover;
     background-position: center;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2rem;
 }
